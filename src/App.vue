@@ -13,7 +13,7 @@
       </b-collapse>
     </b-navbar><!-- NavBar -->
     <router-view/>
-    <footer><div class="copy"><small>&copy; 2019 TEWi_R</small></div></footer>
+    <footer><small>&copy; 2019 TEWi_R</small></footer>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ nav {
 .wrapper{
   padding-top: 112px;
   margin-top: -56px;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 .section-title {
   margin: 0.5em 0;
