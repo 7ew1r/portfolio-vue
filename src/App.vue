@@ -2,13 +2,13 @@
   <div id="app">
   <!-- NavBar -->
     <b-navbar toggleable="lg" type="light" variant="light" sticky>
-      <b-navbar-brand href="http://localhost:8081/#">7ew1r.github.io</b-navbar-brand>
+      <b-navbar-brand :href="url+'#'">7ew1r.github.io</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="http://localhost:8081#biography">Biography</b-nav-item>
-          <b-nav-item href="http://localhost:8081#works">Works</b-nav-item>
-          <b-nav-item href="http://localhost:8081#contact">Contact</b-nav-item>
+          <b-nav-item :href="url+'#biography'">Biography</b-nav-item>
+          <b-nav-item :href="url+'#works'">Works</b-nav-item>
+          <b-nav-item :href="url+'#contact'">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar><!-- NavBar -->
@@ -62,7 +62,7 @@ Vue.use(BootstrapVue);
 export default Vue.extend({
   data() {
     return {
-      hpURL: 'http://localhost:8081/',
+      url: window.location.origin,
     };
   },
 });
