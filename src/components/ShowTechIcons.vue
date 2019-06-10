@@ -19,9 +19,7 @@
       <span v-else-if="tech === 'ubuntu'">
         <font-awesome-icon :icon="['fab', 'ubuntu']" />
       </span>
-      <span v-else>
-        {{ tech }}
-      </span>
+      <span v-else class="non-icon">{{ tech }}</span>
     </span>
   </div>
 </template>
@@ -43,5 +41,17 @@ export default Vue.extend({
     margin-left: 0.25em;
     margin-right: 0.25em;
   }
+}
+
+.non-icon {
+  vertical-align: 4px;
+  color: white;
+  font-size: 13px;
+  background-color: #2c3e50;
+  border-radius: 5px;
+  border: 1px solid #2c3e50;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 50px;
 }
 </style>
