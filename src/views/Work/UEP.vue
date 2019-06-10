@@ -75,7 +75,7 @@ export default Vue.extend({
       work: {
         title: '「U EP」特設WEBページ',
         period: '2018/11',
-        imgPath: 'img/uep.png',
+        imgPath: 'img/uep.jpg',
         imgAlt: 'uep',
         URL: 'http://beatmaniauet.sakura.ne.jp/uep/',
         srcURL: '',

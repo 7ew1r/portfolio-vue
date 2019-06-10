@@ -111,7 +111,7 @@ export default Vue.extend({
       work: {
         title: 'Laranale',
         period: '2019/05',
-        imgPath: 'img/laranale.png',
+        imgPath: 'img/laranale.jpg',
         imgAlt: 'laranale',
         URL: 'http://laranale.herokuapp.com/',
         srcURL: 'https://github.com/7ew1r/Laranale-cms',

@@ -73,7 +73,7 @@ export default Vue.extend({
       work: {
         title: '「初めての構築」特設WEBページ',
         period: '2018/7',
-        imgPath: 'img/hajimete.png',
+        imgPath: 'img/hajimete.jpg',
         imgAlt: 'hajimete',
         URL: 'http://beatmaniauet.sakura.ne.jp/Construction_02/',
         srcURL: '',
