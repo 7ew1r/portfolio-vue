@@ -47,6 +47,7 @@
 
 a::before {
   font-family: 'FontAwesome';
+  font-weight: 400;
   content: '\f0c1 ';
 }
 </style>
