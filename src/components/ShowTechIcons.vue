@@ -29,7 +29,7 @@ import Vue from 'vue';
 
 export default Vue.extend({
   props: {
-    techs: Object,
+    techs: Array,
   },
 });
 </script>
