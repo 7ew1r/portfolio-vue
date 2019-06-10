@@ -9,9 +9,9 @@
       <dt>制作期間</dt>
       <dd>{{ work.period }}</dd>
       <dt>URL</dt>
-      <dd><a :href="work.URL">{{ work.URL }}</a></dd>
+      <dd><a :href="work.URL"><font-awesome-icon icon="link" /> {{ work.URL }}</a></dd>
       <dt>ソースコード</dt>
-      <dd><a :href="work.srcURL">{{ work.srcURL }}</a></dd>
+      <dd><a :href="work.srcURL"><font-awesome-icon icon="link" /> {{ work.srcURL }}</a></dd>
       <dt>概要</dt>
       <dd>
         <p>
@@ -81,10 +81,7 @@
   }
 }
 
-a::before {
-  font-family: 'FontAwesome';
-  content: '\f0c1 ';
-}
+
 </style>
 
 

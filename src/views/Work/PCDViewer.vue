@@ -11,7 +11,7 @@
       <dt>URL</dt>
       <dd>なし</dd>
       <dt>ソースコード</dt>
-      <dd><a :href="work.URL">{{ work.srcURL }}</a></dd>
+      <dd><a :href="work.URL"><font-awesome-icon icon="link" /> {{ work.srcURL }}</a></dd>
       <dt>説明</dt>
       <dd>
         <p>
@@ -47,10 +47,7 @@
   }
 }
 
-a::before {
-  font-family: 'FontAwesome';
-  content: '\f0c1 ';
-}
+
 </style>
 
 
