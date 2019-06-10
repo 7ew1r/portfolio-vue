@@ -12,9 +12,7 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar><!-- NavBar -->
-    <transition mode="out-in">
-      <router-view/>
-    </transition>
+    <router-view/>
     <footer><div class="copy"><small>&copy; 2019 TEWi_R</small></div></footer>
   </div>
 </template>
@@ -30,29 +28,6 @@
 }
 nav {
   filter: drop-shadow(0 5px 10px rgba(0,0,0,0.4));
-}
-
-.v-enter {
-  transform: translate(100px, 0);
-  opacity: 0;
-  &-to {
-    opacity: 1;
-  }
-  &-active {
-    transition: all .2s 0s ease;
-  }
-}
-
-.v-leave {
-  transform: translate(0, 0);
-  opacity: 1;
-  &-to {
-    transform: translate(-100px, 0);
-    opacity: 0;
-  }
-  &-active {
-    transition: all .2s 0s ease;
-  }
 }
 
 .wrapper{
