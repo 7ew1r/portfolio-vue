@@ -70,7 +70,7 @@ export default Vue.extend({
           pageTitle: 'uep',
           imgSrc: 'img/uep.jpg',
           imgAlt: 'uep',
-          description: 'U EP',
+          description: '特設WEBページの制作',
         },
         {
           id: 5,
@@ -78,7 +78,7 @@ export default Vue.extend({
           pageTitle: 'hajimete',
           imgSrc: 'img/hajimete.jpg',
           imgAlt: 'hajimete',
-          description: '初めての構築',
+          description: '特設WEBページの制作',
         },
         {
           id: 6,
