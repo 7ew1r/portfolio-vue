@@ -14,7 +14,7 @@
       <h2>Interests</h2>
       <p>Programming, Design, VR</p>
       <div class="link-icons">
-        <a href="https://twitter.com/r_tewi" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
+        <a href="https://twitter.com/tewi_r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
         <a href="https://github.com/7ew1r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'github']" /></a>
         <a href="https://qiita.com/TEWi_R" target="_blank" rel="noopener noreferrer"><b-button variant="outline-secondary"><font-awesome-icon icon="link" /> Qiita</b-button></a>
         <a href="http://tewir.hatenablog.com/" target="_blank" rel="noopener noreferrer"><b-button variant="outline-secondary"><font-awesome-icon icon="link" /> Blog</b-button></a>
