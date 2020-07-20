@@ -5,14 +5,12 @@
       <h1 class="section-title"><font-awesome-icon icon="user" /> Biography</h1>
       <h2>@tewi_r</h2>
         <p class="profile-detail">
-          大学時代はロボット工学の研究室に所属、C++を用いたCG描画システムの開発を3年間行う。<br>
-          新卒で大手通信会社に就職し、提案支援業務・プロジェクト管理業務に従事する。<br>
-          実際に手を動かしサービス開発を行う仕事がしたいと思い、現在は独学にてプログラミング学習を行っている。
+          大学時代はロボット工学の研究室に所属し C++/OpenGL を用いた CG 描画システムの開発を3年間行う。新卒で大手通信会社に就職し、システムエンジニアとして ネットワーク/PBX 分野の提案支援業務・プロジェクト管理業務に1年弱従事した後、受託開発企業に転職。現在は Ruby on Rails を用いた Web 開発、Swift / Flutter を用いたモバイルアプリ開発を主に行っている。
         </p>
-      <h2>Learning</h2>
-      <p>Vue.js / Laravel</p>
-      <h2>Interests</h2>
-      <p>Programming, Design, VR</p>
+      <!-- <h2>Learning</h2>
+      <p>Vue.js / Laravel</p> -->
+      <!-- <h2>Interests</h2>
+      <p>Design, VR</p> -->
       <div class="link-icons">
         <a href="https://twitter.com/tewi_r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
         <a href="https://github.com/7ew1r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'github']" /></a>
