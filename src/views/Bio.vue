@@ -5,6 +5,7 @@
       <h1 class="section-title"><font-awesome-icon icon="user" /> Biography</h1>
       <h2>@tewi_r</h2>
         <p class="profile-detail">
+          <!-- eslint-disable-next-line max-len -->
           大学時代はロボット工学の研究室に所属し C++/OpenGL を用いた CG 描画システムの開発を3年間行う。新卒で大手通信会社に就職し、システムエンジニアとして ネットワーク/PBX 分野の提案支援業務・プロジェクト管理業務に1年弱従事した後、受託開発企業に転職。現在は Ruby on Rails を用いた Web 開発、Swift / Flutter を用いたモバイルアプリ開発を主に行っている。
         </p>
       <!-- <h2>Learning</h2>
