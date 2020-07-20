@@ -23,3 +23,9 @@ export default Vue.extend({
 
 });
 </script>
+
+<style lang="scss" scoped>
+hr {
+  background-color:#f8f9fa;
+}
+</style>

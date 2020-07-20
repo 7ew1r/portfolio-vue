@@ -3,9 +3,9 @@
   <div id="biography" class="wrapper">
     <b-container>
       <b-row>
-        <b-col class="text-center" sm="4">
-          <b-avatar class="avatar-image" size="8rem">aaa</b-avatar>
-          <div class="h2">@tewi_r</div>
+        <b-col class="text-center" md="4">
+          <b-avatar src="img/avatar-image.jpg" class="avatar-image" size="12rem"></b-avatar>
+          <div class="h2 user-id">@tewi_r</div>
           <div class="link-icons">
             <a href="https://twitter.com/tewi_r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'twitter']" /></a>
             <a href="https://github.com/7ew1r" target="_blank" rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'github']" /></a>
@@ -19,8 +19,10 @@
             >
           </div>
         </b-col>
-        <b-col sm="8">
-          <h1 class="section-title"><font-awesome-icon icon="user" /> Biography</h1>
+        <b-col md="8">
+          <h1 class="section-title">
+            <!-- <font-awesome-icon icon="user" /> -->
+            Biography</h1>
           <p class="profile-detail">
             <!-- eslint-disable-next-line max-len -->
             大学時代はロボット工学の研究室に所属し C++/OpenGL を用いた CG
@@ -43,14 +45,19 @@
 </template>
 
 <style lang="scss" scoped>
+.avatar-image {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
 .link-icons {
-  font-size: 2em;
+  font-size: 2.0rem;
   margin: 0 auto;
   > a {
-    color: #2c3e50;
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    color:#f8f9fa;
+;
+    margin-left: 0.15em;
+    margin-right: 0.15em;
     > button {
       margin-bottom: 8px;
     }
