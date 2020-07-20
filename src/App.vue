@@ -13,7 +13,7 @@
       </b-collapse>
     </b-navbar><!-- NavBar -->
     <router-view/>
-    <footer><small>&copy; 2019 TEWi_R</small></footer>
+    <footer><small>&copy; 2020 tewi_r</small></footer>
   </div>
 </template>
 
