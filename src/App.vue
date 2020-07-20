@@ -66,5 +66,8 @@ export default Vue.extend({
       url: window.location.origin,
     };
   },
+  mounted() {
+    document.title = '7ew1r.github.io';
+  },
 });
 </script>
